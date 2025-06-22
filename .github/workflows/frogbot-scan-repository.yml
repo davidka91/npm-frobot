@@ -39,8 +39,8 @@ jobs:
           # [Mandatory]
           # The GitHub token is automatically generated for the job
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-              oidc-provider-name: davidka 
+        with:
+          oidc-provider-name: davidka 
           # [Mandatory]
           # The name of the branch on which Frogbot will perform the scan
           JF_GIT_BASE_BRANCH: ${{ matrix.branch }}
